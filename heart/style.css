@@ -27,3 +27,12 @@ div.heart:before {
     top: 0;
     left: 50px;
 }
+
+div.container {
+    display:flex;
+    width: 300px;
+    height: 300px;
+    border: 10px;
+    border-color: black;
+    margin: auto;
+}
