@@ -1,0 +1,85 @@
+div.heart-red {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position:relative;
+    transform: rotateZ(-45deg);
+    animation-name: pump;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    z-index: 2;
+    align-self: center;
+}
+
+div.heart-red:after, div.heart-red:before {
+    display:block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+}
+
+div.heart-red:after {
+    top: -50px;
+    left: 0;
+}
+
+div.heart-red:before {
+    top: 0;
+    left: 50px;
+}
+
+div.heart-pink {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color:pink;
+    position:relative;
+    transform: rotateZ(-45deg);
+    animation-name: pump;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    z-index: 1;
+    align-self: center;
+}
+
+div.heart-pink:after, div.heart-pink:before {
+    display:block;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    border-radius: 75px;
+    position: absolute;
+}
+
+div.heart-pink:after {
+    top: -75px;
+    left: 0;
+}
+
+div.heart-pink:before {
+    top: 0;
+    left: 75px;
+}
+
+div.container {
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes pump {
+    from {
+        transform: scale(1.1, 1.1) rotate(-45deg);
+    }
+    to {
+        transform: scale(0.9, 0.9) rotateZ(-45deg);
+    }
+}
+
