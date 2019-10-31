@@ -1,6 +1,5 @@
 div.heart {
     display: block;
-    margin: 100px;
     width: 100px;
     height: 100px;
     background-color: red;
@@ -34,5 +33,6 @@ div.container {
     height: 300px;
     border: 10px;
     border-color: black;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
