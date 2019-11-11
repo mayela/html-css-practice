@@ -1,0 +1,19 @@
+p {
+    background: blue;
+}
+
+p:hover {
+    background: purple;
+}
+
+p:active {
+    background: pink;
+}
+
+p:first-of-type {
+    background: yellow;
+}
+
+p:last-of-type {
+    background: black;
+}
