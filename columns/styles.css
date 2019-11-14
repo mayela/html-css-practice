@@ -1,0 +1,19 @@
+@media screen and (max-width:500px) {
+    .content {
+        columns: 1;
+        column-rule: 1px dotted green;
+    }
+}
+@media screen and (min-width:500px) {
+    .content {
+        columns: 2;
+        column-rule: 1px dotted green;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .content {
+        columns: 3;
+        column-rule: 1px dotted green;
+    }
+}
