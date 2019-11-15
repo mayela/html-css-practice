@@ -17,3 +17,17 @@
         column-rule: 1px dotted green;
     }
 }
+
+/* .main {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px black;
+} */
+
+.main {
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to bottom right, black, white);
+}
